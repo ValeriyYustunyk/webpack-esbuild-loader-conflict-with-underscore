@@ -1,0 +1,23 @@
+{
+  "name": "webpack-esbuild-loader-conflict-with-underscore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -- --mode=production"
+  },
+  "keywords": [
+    "webpack",
+    "esbuild-loader",
+    "underscore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild-loader": "^4.3.0",
+    "webpack": "^5.98.0"
+  },
+  "dependencies": {
+    "underscore": "^1.13.7"
+  }
+}
